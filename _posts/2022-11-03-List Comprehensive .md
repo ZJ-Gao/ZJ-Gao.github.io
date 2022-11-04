@@ -17,7 +17,7 @@ list_larger_zero
 
 
 
-    [1, 6, 10]
+    [1, 6, 10] # Output
 
 
 
@@ -33,7 +33,7 @@ list_new
 
 
 
-    [-10, 2]
+    [-10, 2] # Output
 
 
 
@@ -58,6 +58,6 @@ dict_reverse_info
 
 
 
-    {26: 'Mike', 17: 'Grace', 31: 'Nick'}
+    {26: 'Mike', 17: 'Grace', 31: 'Nick'} # Output
 
 
