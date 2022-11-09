@@ -1,0 +1,8 @@
+Modified from [Stackoverflow Q&A](https://stackoverflow.com/questions/36351109/ipython-notebook-ipywidgets-does-not-show)
+```
+    pip install ipywidgets
+    jupyter nbextension enable --py widgetsnbextension
+    # To those using virtual environments (including conda environments) the recommended way to activate the extension is to run
+    jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+```
