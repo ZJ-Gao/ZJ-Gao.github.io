@@ -53,12 +53,12 @@ Click `New` and add the following paths in one by one.
 
 ![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130142740920.png)
 
-`
+```
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include
-`
+```
 
 Here's how it will look after you add all the environment variables.
 
