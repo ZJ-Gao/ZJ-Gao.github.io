@@ -1,6 +1,6 @@
 # Before We Started
 
-Deep Learning has been widely applied into Computer Vision tasks like segmentation and object detection. There are a lot of things for an non-CS major to learn if you want to deploy them in your field of study. As a geologist, learning the algorithms and coding skills can be rewarding and fun. However, set up the device functionally to run deep learning task is sort of painful. It's frustrating when you're eager to try your ideas but your device hasn't ready for that. If you have a light task to run, you can use [Goolge Colab](https://colab.research.google.com/), and use their free GPU for a while. Nonetheless, when you have a heavy task which needs more than half day to run, it's better to have it run on your own device or upgrade your Google Colab to Pro, so you can sleep well without worrying the runtime in google Colab is interrupted or something. I tried several tutorials and always struggled with the compatible issues among the stuff I need to download. Here's the one I found which is the easiest and require the least efforts finding compatible versions. Modified from Araron-ywl(https://blog.csdn.net/weixin_56197703/article/details/125192385?spm=1001.2014.3001.5506).
+Deep Learning has been widely applied into Computer Vision tasks like segmentation and object detection. There are a lot of things for an non-CS major to learn if you want to deploy them in your field of study. As a geologist, learning the algorithms and coding skills can be rewarding and fun. However, set up the device functionally to run deep learning task is sort of painful. It's frustrating when you're eager to try your ideas but your device hasn't ready for that. If you have a light task to run, you can use [Goolge Colab](https://colab.research.google.com/), and use their free GPU for a while. Nonetheless, when you have a heavy task which needs more than half day to run, it's better to have it run on your own device or upgrade your Google Colab to Pro, so you can sleep well without worrying the runtime in google Colab is interrupted or something. I tried several tutorials and always struggled with the compatible issues among the stuff I need to download. Here's the one I found which is the easiest and require the least efforts finding compatible versions. Modified from [Reference](https://blog.csdn.net/weixin_56197703/article/details/125192385?spm=1001.2014.3001.5506).
 
 # Overview of My Device
 
@@ -23,7 +23,7 @@ I have NVIDA Geforce RTX 3050Ti, so I need the relatively latest driver to make 
 
 - Uncheck Visual Studio Integration while installing
 
-![image-20221130140759534](C:\Users\z281g247\AppData\Roaming\Typora\typora-user-images\image-20221130140759534.png)
+![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130140759534.png)
 
 - Test if CUDA has been sucessfully installed
   - Open cmd, and type `nvcc --version`. 
@@ -41,15 +41,17 @@ I have NVIDA Geforce RTX 3050Ti, so I need the relatively latest driver to make 
 - Copy the folders inside the cuDNN, and then paste them into the CUDA 11.6 folder in the Program Files([C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6](C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6)). You goal is to merge the folders with the same name. 
 - Add environment variables under the system variables
 
-![image-20221130141735873](C:\Users\z281g247\AppData\Roaming\Typora\typora-user-images\image-20221130141735873.png)
+![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130141735873.png)
 
 You may need admin username and password to access that.
 
-![image-20221130142325856](C:\Users\z281g247\AppData\Roaming\Typora\typora-user-images\image-20221130142325856.png)
+![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130142250712.png)
 
-![image-20221130142740920](C:\Users\z281g247\AppData\Roaming\Typora\typora-user-images\image-20221130142740920.png)
+
 
 Click `New` and add the following paths in one by one.
+
+![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130142740920.png)
 
 `
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin
@@ -60,7 +62,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include
 
 Here's how it will look after you add all the environment variables.
 
-![image-20221130142708127](C:\Users\z281g247\AppData\Roaming\Typora\typora-user-images\image-20221130142708127.png)
+![](https://raw.githubusercontent.com/ZJ-Gao/ZJ-Gao.github.io/main/_images/image-20221130142708127.png)
 
 ### Test if the environment variables have been successfully embedded in
 
